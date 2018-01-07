@@ -20,6 +20,9 @@
             <p class="time">Time</p>
             </p>
          </div>
+         <div id="notifier">
+            <p> No one there!</p>
+        </div>
     </div>
 </body>
 <footer>

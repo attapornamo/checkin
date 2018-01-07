@@ -4,7 +4,11 @@ require('connect.php');
 if(isset($_POST['token'])){
     $token = $_POST['token'];
     if($token == "lovestory0626life"){
-        $query = "SELECT * FROM `records`";
+        if($_POST['job'] == 'get'){
+            $query = "SELECT * FROM `records`";
+        }else{
+            $query = "SELECT * FROM `records` ORDER BY `id` DESC LIMIT 1";
+        }
         $data = array();
         if($result = $con->query($query)){
         $i = 0;

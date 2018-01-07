@@ -56,11 +56,14 @@ p{
     width:20%;
 }
 
-.status{
+.status,in{
     background-color: rgb(29, 84, 116);
     width:30%;
 }
 
+.out{
+    background-color: #a00f0f;
+}
 .time{
     background-color: rgb(29, 116, 62);
     width:37%;
@@ -68,4 +71,14 @@ p{
 
 footer{
     padding:10%;
+}
+
+#notifier{
+    width:60%;
+    padding:3%;
+    margin: 1% auto;
+    background-color:#7e1a1a;
+    color:#fff;
+    text-align: center;
+
 }
